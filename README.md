@@ -23,7 +23,7 @@
   -booting twrp(not installing):
      $ fastboot boot twrp-3.3.1-74-guacamole-unified-Q-mauronofrio.img
 
-...wait for the device to boot into "twrp recorvery" (around 10s)
+**wait for the device to boot into "twrp recorvery" (around 10s)**
 
 - Step 5:
   - tap on "install" and select the zip file "twrp-3.3.1-74-guacamole-unified-installer-mauronofrio.zip" and reboot after the installation  is completed.
