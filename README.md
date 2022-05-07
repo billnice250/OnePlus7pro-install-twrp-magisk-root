@@ -8,7 +8,7 @@
 
 - Step 2:
   connect your phone on a computer and transfer the zip file included on phone storage.
-  _PS_: the zip referred is "twrp-3.3.1-74-guacamole-unified-installer-mauronofrio.zip"
+_PS_: the zip referred is "twrp-3.3.1-74-guacamole-unified-installer-mauronofrio.zip"
   and all the zips you want to install after like the latest versions of "Magisk,Youtube vanced, etc".
 - Step 3: putting your phone in bootloader mode(fastboot mode).
   - doing it manuary by pressing a combination of power button or vol buttons
