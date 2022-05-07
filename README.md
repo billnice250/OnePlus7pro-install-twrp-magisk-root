@@ -1,6 +1,6 @@
 # OnePlus7pro-install-twrp-magisk-root
 
-##Installing TWRP recovery on the Oneplus 7 pro on Android 10(Q)
+## Installing TWRP recovery on the Oneplus 7 pro on Android 10(Q)
 ==============================================================
 
 - Step 1:
