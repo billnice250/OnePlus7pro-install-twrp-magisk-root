@@ -15,8 +15,8 @@
   - doing it manuary by pressing a combination of power button or vol buttons
   - Suggested method: adb installed
       1)connected your phone on a computer and type in the terminal(in the PATH of adb files):
-         =>adb devices //to be sure that the computer can detect your phone correctly (you should see its id_num displayed)
-      2) =>adb reboot bootloader //should reboot the device in fastboot mode in few seconds.
+         $ adb devices //to be sure that the computer can detect your phone correctly (you should see its id_num displayed)
+      1) $ adb reboot bootloader //should reboot the device in fastboot mode in few seconds.
 - Step 4: while phone is fastboot mode
   - test: 
      $ fastboot devices //to make sure it is discovered correctly.
@@ -26,16 +26,12 @@
 ...wait for the device to boot into "twrp recorvery" (around 10s)
 
 - Step 5:
-  -tap on "install" and select the zip file "twrp-3.3.1-74-guacamole-unified-installer-mauronofrio.zip" and reboot after the installation  is completed.
-  -reboot into recovery again(twrp should be default this time) and install "Magisk___.zip"
+  - tap on "install" and select the zip file "twrp-3.3.1-74-guacamole-unified-installer-mauronofrio.zip" and reboot after the installation  is completed.
+  - reboot into recovery again(twrp should be default this time) and install "Magisk___.zip"
 
 
-** Now TWRP is fully installed and your device is rooted **
+**Now TWRP is fully installed and your device is rooted**
 
 After this you can flash all the other files you need.
 
-
 Installation guide by [Bill Nice G. Havugukuri](https://blog.billnice.it)
-
-Special thanks to "mauronofrio" for creating the files used in the tutorial 
-
