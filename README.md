@@ -6,8 +6,7 @@
   make sure "USB degubing" and "OEM unlocking"( bootloader unlocking) is enabled on your phone
   and it is charged above at least 50%.
 
-- Step 2:
-  connect your phone on a computer and transfer the zip file included on phone storage.
+- Step 2: connect your phone on a computer and transfer the zip file included on phone storage.
 _PS_: the zip referred is "twrp-3.3.1-74-guacamole-unified-installer-mauronofrio.zip"
   and all the zips you want to install after like the latest versions of "Magisk,Youtube vanced, etc".
 - Step 3: putting your phone in bootloader mode(fastboot mode).
