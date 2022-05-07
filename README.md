@@ -14,9 +14,13 @@
 - Step 3: putting your phone in bootloader mode(fastboot mode).
   - doing it manuary by pressing a combination of power button or vol buttons
   - Suggested method: adb installed
-      1)connected your phone on a computer and type in the terminal(in the PATH of adb files):
-         $ adb devices //to be sure that the computer can detect your phone correctly (you should see its id_num displayed)
-      1) $ adb reboot bootloader //should reboot the device in fastboot mode in few seconds.
+      - connected your phone on a computer and type in the terminal(in the PATH of adb files):
+      ```bash
+      //to be sure that the computer can detect your phone correctly (you should see its id_num displayed)
+        $ adb devices
+      //should reboot the device in fastboot mode in few seconds.
+        $ adb reboot bootloader
+      ```
 - Step 4: while phone is fastboot mode
   - test: 
      $ fastboot devices //to make sure it is discovered correctly.
