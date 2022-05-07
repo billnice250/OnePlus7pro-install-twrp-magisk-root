@@ -23,14 +23,14 @@
       ```
 - Step 4: while phone is fastboot mode
   - test: 
-    ```bash
-     $ fastboot devices
-     //to make sure it is discovered correctly.
-     ```
+      ```bash
+       $ fastboot devices
+       //to make sure it is discovered correctly.
+       ```
   - booting twrp(not installing):
-  ```bash
-     $ fastboot boot twrp-3.3.1-74-guacamole-unified-Q-mauronofrio.img
-  ```
+      ```bash
+         $ fastboot boot twrp-3.3.1-74-guacamole-unified-Q-mauronofrio.img
+      ```
 
 **wait for the device to boot into "twrp recorvery" (around 10s)**
 
